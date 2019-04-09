@@ -1,5 +1,5 @@
 ---
-title: Unsupervised Domain Adaptation by Backpropagation论文翻译
+title: 测试
 date: 2018-11-12 15:39:53
 categories: 论文翻译
 tags: [论文,机器学习,深度学习,迁移学习]
