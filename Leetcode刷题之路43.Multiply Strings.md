@@ -3,6 +3,7 @@ title: Leetcode刷题之路#43.Multiply Strings
 date: 2019-04-11 15:44:54
 categories: 算法
 tags: [算法,数据结构,字符串,乘法,数学]
+
 ---
 
 <Excerpt in index | 首页摘要> 
@@ -17,7 +18,7 @@ tags: [算法,数据结构,字符串,乘法,数学]
 
 首先我们可以想到的就是直接模拟乘法的功能，将字符串的每一位相乘，然后进位。代码如下：
 
-~~~python
+```python
 Multiply Strings ⭐️⭐️
 题目地址/Problem Url: https://leetcode-cn.com/problems/multiply-strings
 执行时间/Runtime: 772 ms
@@ -70,7 +71,7 @@ class Solution:
             re=self.Add(temp_re,re,num)
             num+=1
         return ''.join(re)
-~~~
+```
 
 提交后遇到过一些错误，首先就是因为我是将进位保存到on这个字段，那么如果在乘法的最后一位还存在进位的话，这个进位就会被丢掉，导致错误，解决的办法有两种：
 
