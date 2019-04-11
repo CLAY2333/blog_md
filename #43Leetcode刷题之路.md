@@ -1,5 +1,5 @@
 ---
-title: #43Leetcode刷题之路-Multiply Strings
+title: Leetcode刷题之路#43.Multiply Strings
 date: 2019-04-11 15:44:54
 categories: 算法
 tags: [算法,数据结构,字符串,乘法,数学]
