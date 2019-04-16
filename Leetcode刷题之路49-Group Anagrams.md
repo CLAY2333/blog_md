@@ -26,7 +26,7 @@ leetcode 49题
 - 内存消耗/Mem Usage: 16.1 MB
 - 通过日期/Accept Datetime: 2019-04-15 16:44
 
-```
+```python
 // Author: CLAY2333 @ https://github.com/CLAY2333/CLAYleetcode
 class Solution:
     def groupAnagrams(self, strs:list) -> list:
